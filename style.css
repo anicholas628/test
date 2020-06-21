@@ -1,0 +1,694 @@
+
+
+/*reset whitespace*/
+* {
+  margin: 0px;
+  padding: 0px; 
+  outline: none;
+  border: 0px;
+} 
+
+h2 {
+	font-family: 'Patrick Hand', sans-serif;
+	color: #F88E0B;
+}
+
+a, p, li, #nav-tog{
+	font-family: 'Happy Monkey', sans-serif;
+	font-weight: bold;
+}
+
+.home-bg, .animal-bg, .animal-body{
+	background: url(river.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.padding {
+	padding: 30px;
+}
+
+.animal, .sign {
+	cursor: url(zebra1.png), auto;
+}
+
+/*Nav picture*/
+
+#peace {
+	width: 100%;
+	border: 3px solid black;
+	background-color: black;
+
+}
+
+#peace-pic {
+	width: 100%;
+}
+
+#nav-tog {
+	width: 99%;
+	padding: 10px;
+	text-align: right;
+	border-radius: 0;
+	border-color: black;
+	background-color: black;
+	color: white;
+	margin-top: 5px;
+	padding: 0;
+	padding-right: 15px;
+}
+
+#nav-tog2 {
+	width: 100%;
+	padding: 0 50px 10px 10px;
+	text-align: right;
+	border-radius: 0;
+	border-color: black;
+	background-color: black;
+	color: white;
+	margin-top: -22px;
+
+}
+
+#header {
+	width: 100%;
+	z-index: 2001;
+}
+
+#sunset {
+	width: 100%;
+	margin-top: 0;
+	z-index: 2000;
+}
+
+#map-nav2 {
+	margin-top: -15px;
+}
+
+.card {
+	z-index: 5;
+	border-radius: 0 !important;
+	border: 2px solid black !important;
+	background-color: #FFE535 !important;
+}
+
+.nav-link {
+	font-weight: bold;
+	color: black;
+}
+
+
+/*home page*/
+
+.sign {
+	max-width: 100%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 0;
+}
+
+/*
+.credit {
+	font-family: sans-serif;
+	font-weight: bold;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 2900px;
+	text-align: center;
+}
+*/
+#ranch {
+	top: 225px;
+}
+
+#wild {
+	top: 545px;
+}
+
+#this-way {
+	top: 955px;
+}
+
+#wavy-road {
+	
+	top: 1870px;
+}
+
+#glad {
+	top: 1545px;
+}
+
+#wrong {
+	top: 2270px;
+}
+
+#dead-end {
+	top: 2620px;
+}
+
+
+/*animals page*/
+
+.animal-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.animal {
+	width: 70%;
+	padding-top: 5%;
+}
+/*
+#animal-credit {
+	top: 2950px;
+}
+*/
+
+/*info page*/
+
+.info-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hours-row {
+	display: flex;
+	flex-direction: column;
+}
+
+.location {
+	max-width: 95%;
+	padding: 3%;
+}
+
+.review {
+	width: 98%;
+	height: 550px;
+}
+
+/*restrictions page*/
+
+#restric-header {
+	margin-top: 20px;
+	margin-left: 25px;
+}
+
+
+
+.paw {
+    list-style-type: none;
+}
+
+.paw > li::before {   
+    content: '';   
+    display: inline-block;   
+    height: 30px;   
+    width: 30px;    
+    background-size: 30px;   
+    background-image: url(paw.png); 
+    background-repeat: no-repeat;   
+    margin-right: 10px;
+    margin-bottom: 3px;
+    vertical-align: top;
+}
+
+.paw li {
+	margin-top: 5px;
+}
+
+@media only screen and (min-width: 425px){
+
+/*home page*/
+
+#ranch {
+	top: 290px;
+}
+
+#wild {
+	top: 685px;
+}
+
+#this-way {
+	top: 1150px;
+}
+
+#wavy-road {
+	
+	top: 2200px;
+}
+
+#glad {
+	top: 1735px;
+}
+
+#wrong {
+	top: 2665px;
+}
+
+#dead-end {
+	top: 3140px;
+}
+
+/*
+.credit {
+	top: 3550px;
+}
+*/
+
+/*animals page*/
+
+#giraffe {
+	width: 60%;
+}
+
+/*
+#animal-credit {
+	top: 3300px;
+}
+*/
+
+
+}
+
+@media only screen and (min-width: 561px){
+
+/*home page*/
+
+#ranch {
+	top: 350px;
+}
+
+#wild {
+	top: 770px;
+}
+
+#this-way {
+	top: 1250px;
+}
+
+#wavy-road {
+	
+	top: 2350px;
+}
+
+#glad {
+	top: 1870px;
+}
+
+#wrong {
+	top: 2870px;
+}
+
+#dead-end {
+	top: 3350px;
+}
+
+/*
+.credit {
+	top: 3850px;
+}
+*/
+}
+
+@media only screen and (min-width: 700px){
+
+	/*diable scrolling*/
+	.animal-bg, .home-bg, .animal-body, .home-body 
+		{overflow: hidden}
+
+	.home-bg {
+		background: url(map.png) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	.animal-bg {
+		background: url(map2.png) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	#peace {
+		top: 3%;
+		left: 3%;
+		width: 40%;
+		position: absolute;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .6), 0 6px 20px 0 rgba(0, 0, 0, .6);
+	}
+
+	/*home page*/
+
+	.sign {
+		width: 25%;
+		margin-left: 0;
+		margin-right: 0;
+		right: auto;
+		text-align: none;
+		transition-duration: 1s;
+	}
+	
+	.sign:hover {
+		transform: scale(1.5);
+		z-index: 2000;
+	}
+
+	/*sign positions*/
+
+	#ranch {
+		top: 50%;
+		left: 44%;
+	}
+
+	#wild {
+		top: 0;
+		left: 75%;
+		width: 20%;
+	}
+
+	#this-way {
+		top: 64%;
+		left: 82%;
+		width: 13%;
+	}
+
+	#wavy-road {
+		
+		top: 1%;
+		left: 50%;
+		width: 20%;
+	}
+
+	#glad {
+
+		top: 30%;
+		left: 65%;
+
+	}
+
+	#wrong {
+		top: 73%;
+		left: 20%;
+		width: 20%;
+	}
+
+	#dead-end {
+		top: 44%;
+		left: 3%;
+		width: 18%;
+	}
+
+	/*animals page*/
+.animal-body {
+	display: block;
+}
+
+.animal {
+	width: 15%;
+	position: absolute;
+	transition-duration: 1s;
+}
+
+.animal:hover {
+		transform: scale(1.5);
+		z-index: 2000;
+}
+
+#eagle {
+	width: 25%;
+	top: 55%;
+	left: 30%;
+
+}
+
+#giraffe {
+	width: 15%;
+	top: 45%;
+	left: 10%;
+
+}
+
+#antelope {
+	left: 45%;
+}
+
+#reptile {
+	top: 70%;
+	left: 70%;
+}
+
+#tortoise {
+	top: 3%;
+	left: 75%;
+}
+
+#gator {
+	top: 30%;
+	left: 22%;
+}
+
+#kangaroo {
+	top: 40%;
+	left: 80%;
+}
+
+#lizard {
+	top: 35%;
+	left: 40%;
+}
+/*
+	.credit {
+		top: 97%;
+		padding-left: 5px;
+		margin-left: 0;
+		margin-right: 0;
+		right: 0;
+		left: 0;
+		text-align: left;
+		font-size: 90%;
+		color: white;
+
+	}
+
+	.credit:hover {
+		background-color: lightblue;
+		color: black;
+		top: 96%;
+		padding: 5px;
+	}
+
+	*/
+
+	/*info page*/
+
+#nav-tog2 {
+	margin-top: -30px;
+}
+
+#sunset {
+	width: 100%;
+	margin-top: -10px;
+}
+
+#map-nav2 {
+	margin-top: -10px;
+}
+
+
+}
+
+@media only screen and (min-width: 948px){
+
+/*home page*/
+	.sign {
+		width: 20%;
+	}
+
+	#peace {
+		width: 30%;
+	}
+
+	#wavy-road {
+		width: 15%;
+	}
+
+	#this-way {
+		top: 63%;
+		left: 85%;
+		width: 10%;
+	}
+
+	#wrong {
+		width: 15%;
+	}
+
+
+
+	/*animals page*/
+
+	#gator {
+		top: 25%;
+		left: 30%;
+		width: 12%;
+	}
+
+	#eagle {
+		width: 22%;
+		top: 55%;
+		left: 30%;
+
+	}
+
+	#giraffe {
+		top: 40%;
+	}
+
+	#reptile {
+		top: 65%;
+		left: 70%;
+	}
+
+	#lizard {
+		top: 30%;
+		left: 50%;
+	}
+
+	#kangaroo {
+		top: 35%;
+		left: 75%;
+		width: 12%;
+	}
+
+	#tortoise {
+		top: 0;
+		left: 65%;
+	}
+
+	/*info page*/
+
+#nav-tog2 {
+	margin-top: -50px;
+}
+
+#sunset {
+	width: 100%;
+	margin-top: -10px;
+}
+
+#map-nav2 {
+	margin-top: -20px;
+}
+
+.info-row {
+	flex-direction: row;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+}
+
+@media only screen and (min-width: 1230px){
+
+/*home page*/
+	#ranch {
+		width: 15%;
+	}
+
+	#wavy-road {
+		width: 12%;
+	}
+
+	#this-way {
+		top: 60%;
+		left: 85%;
+		width: 10%;
+	}
+
+	#glad {
+
+		top: 27%;
+		left: 64%;
+
+	}
+
+	#wild {
+		left: 80%;
+
+	}
+
+	#wrong {
+		width: 12%;
+	}
+
+		#dead-end {
+			width: 15%;
+	}
+
+	/*animals page*/
+
+	.animal {
+		width: 12%;
+	}
+
+	#tortoise {
+		top: -5%;
+		left: 65%;
+	}
+
+	#lizard {
+		top: 25%;
+	}
+
+	#giraffe {
+		left: 3%;
+		width: 10%;
+	}
+
+	#reptile {
+		width: 10%;
+		left: 65%;
+	}
+
+	#eagle {
+		width: 20%;
+	}
+
+	/*info page*/
+
+#nav-tog2 {
+	margin-top: -75px;
+}
+
+#sunset {
+	width: 100%;
+	margin-top: -25px;
+}
+
+#map-nav2 {
+	margin-top: -35px;
+}
+
+}

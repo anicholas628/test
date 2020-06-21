@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="info-bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="app.js" defer></script>
+
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="icon" href="zebra.png" type="image/x-icon"> 
+
+<!--libraries-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="info-body">
+<div id="header">
+	<img id="sunset" src="sunset.png">
+
+	<button id="nav-tog2" class= "btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#map-nav2" aria-expanded="false" aria-controls="map-nav2" aria-pressed="true" >
+	    Click Here for More Info
+  	</button>
+	<!--wrapping everything in the collapse div allows it to only be shown once the user clicks on the button-->
+	<div class="collapse" id="map-nav2">
+	  <div class="card">
+	    <nav class="nav">
+		  <a class="nav-link" href="index.html">Home</a> 
+		  <a class="nav-link" href="animals.html">Animals</a> 
+		  <a class="nav-link" href="info.html">Hours, Admission, Location</a> 
+		  <a class="nav-link" href="restrictions.html">Rules and Restrictions</a>
+		</nav>
+	  </div>
+	</div>
+</div>
+<div class="info-row">
+	<div class="padding hours-row">
+		<div>
+			<h2>Hours:</h2>
+			<p>10:00 AM until sunset</p>
+			<p>The last car is allowed in one hour before sunset.</p>
+		</div>
+		<hr>
+		<div>
+			<h2>Season:</h2>
+			<p>March throo November Daily</p>
+			<p>Holidays are included.</p>
+		</div>
+		<hr>
+		<div>
+			<h2>Admission:</h2>
+			<p>$10.00 per person</p>
+			<p>Age 2 and under are free.</p>
+			<p>Cash or good checks only.</p>
+		</div>
+		<hr>
+	</div>
+		<div class="location">
+			<h2>Location:</h2>
+			<p>431 Clouds Cove Rd SE, Huntsville, AL 35803</p>
+			<iframe class="location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13147.384734863932!2d-86.4748545!3d34.5321248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb004035013a964d0!2sHarmony%20Park%20Safari!5e0!3m2!1sen!2sus!4v1592651517411!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+
+		<div class="review" >
+			<h2>Review</h2>
+			<iframe class="review" src="https://www.huntsville.org/listing/harmony-park-safari-(open-mar-through-nov)/100/#"></iframe>
+		</div>
+
+	</div>
+	<!--location, hours, season, admission, restrictions
+	<a target="_blank" href="https://anicholas628.github.io/"><p class="credit" id="animal-credit">Website created by Amber Nicholas &copy; 2020</p></a>
+	-->
+</body>
+
+</html>

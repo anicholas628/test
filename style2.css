@@ -1,0 +1,307 @@
+/*reset whitespace*/
+* {
+  margin: 0px;
+  padding: 0px; 
+  outline: none;
+  border: 0px;
+} 
+
+html{
+	background: url(img/river.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+  	display: flex;
+  	flex-direction: column;
+}
+
+
+#peace {
+	max-width: 98%;
+	border: 5px solid black;
+}
+
+.sign {
+	max-width: 100%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#credit {
+	font-family: sans-serif;
+	font-weight: bold;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 2900px;
+	text-align: center;
+}
+
+#ranch {
+	top: 225px;
+}
+
+#wild {
+	top: 545px;
+}
+
+#this-way {
+	top: 955px;
+}
+
+#wavy-road {
+	
+	top: 1870px;
+}
+
+#glad {
+	top: 1545px;
+}
+
+#wrong {
+	top: 2270px;
+}
+
+#dead-end {
+	top: 2540px;
+	width: 110%;
+}
+
+@media only screen and (min-width: 425px){
+
+#ranch {
+	top: 290px;
+}
+
+#wild {
+	top: 685px;
+}
+
+#this-way {
+	top: 1150px;
+}
+
+#wavy-road {
+	
+	top: 2200px;
+}
+
+#glad {
+	top: 1735px;
+}
+
+#wrong {
+	top: 2665px;
+}
+
+#dead-end {
+	top: 3000px;
+	width: 110%;
+}
+
+#credit {
+	top: 3550px;
+}
+}
+
+@media only screen and (min-width: 561px){
+
+
+
+#ranch {
+	top: 350px;
+}
+
+#wild {
+	top: 770px;
+}
+
+#this-way {
+	top: 1250px;
+}
+
+#wavy-road {
+	
+	top: 2350px;
+}
+
+#glad {
+	top: 1870px;
+}
+
+#wrong {
+	top: 2870px;
+}
+
+#dead-end {
+	top: 3200px;
+	width: 110%;
+}
+
+#credit {
+	top: 3850px;
+}
+}
+
+@media only screen and (min-width: 700px){
+	html{
+		background: url(img/map.png) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	#peace {
+		width: 40%;
+		top: 3%;
+		left: 3%;
+		position: absolute;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .6), 0 6px 20px 0 rgba(0, 0, 0, .6);
+	}
+
+	.sign {
+		width: 25%;
+		margin-left: 0;
+		margin-right: 0;
+		right: auto;
+		text-align: none;
+	}
+
+	/*sign positions*/
+
+	#ranch {
+		top: 50%;
+		left: 44%;
+	}
+
+	#wild {
+		top: 0;
+		left: 75%;
+
+	}
+
+	#this-way {
+		top: 65%;
+		left: 80%;
+		width: 15%;
+	}
+
+	#wavy-road {
+		
+		top: 1%;
+		left: 50%;
+		width: 20%;
+	}
+
+	#glad {
+
+		top: 30%;
+		left: 65%;
+
+	}
+
+	#wrong {
+		top: 73%;
+		left: 20%;
+		width: 20%;
+	}
+
+	#dead-end {
+		top: 32%;
+		left: 0;
+		width: 25%;
+	}
+
+	#credit {
+		top: 97%;
+		padding-left: 5px;
+		margin-left: 0;
+		margin-right: 0;
+		right: 0;
+		left: 0;
+		text-align: left;
+		font-size: 90%;
+		color: white;
+
+	}
+
+	#credit:hover {
+		background-color: lightblue;
+		color: black;
+		top: 96%;
+		padding: 5px;
+	}
+}
+
+@media only screen and (min-width: 948px){
+
+	.sign {
+		width: 20%;
+	}
+
+	#peace {
+		width: 30%;
+	}
+
+	#wavy-road {
+		width: 15%;
+	}
+
+	#this-way {
+		top: 63%;
+		width: 12%;
+	}
+
+	#wrong {
+		width: 15%;
+	}
+
+	#dead-end {
+		width: 20%;
+	}
+
+}
+
+@media only screen and (min-width: 1230px){
+
+	#ranch {
+		width: 15%;
+	}
+
+	#wavy-road {
+		width: 12%;
+	}
+
+	#this-way {
+		top: 63%;
+		left: 85%;
+		width: 10%;
+	}
+
+	#glad {
+
+		top: 27%;
+		left: 64%;
+
+	}
+
+	#wild {
+		left: 80%;
+
+	}
+
+	#wrong {
+		width: 12%;
+	}
+
+
+}
